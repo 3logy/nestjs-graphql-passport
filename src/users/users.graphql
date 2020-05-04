@@ -1,0 +1,14 @@
+type User {
+    userId: ID!
+    username: String
+    email: String!
+    password: String!
+}
+
+type Query {
+    me: String
+}
+
+schema {
+  query: Query
+}
